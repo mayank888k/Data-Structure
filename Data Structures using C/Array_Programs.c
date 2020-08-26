@@ -182,7 +182,7 @@ void trans(int a[10][10],int m, int n)
     }
   }
 
-  printf("\nMultiplication of Matrix 1 and 2 is:\n");
+  printf("\nTranspose of Matrix 1 is:\n");
   for(int i=0;i<m;i++)
 {
   for (int j = 0; j < n; j++)
