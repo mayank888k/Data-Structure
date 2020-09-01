@@ -15,7 +15,7 @@ int main()
     while(ch==1)
     {
         newnode=(struct node*)malloc(sizeof(struct node));
-        printf("Enter the data of newnode\n");
+        printf("\nEnter the data of New Node\n");
         scanf("%d",&newnode->data);
 
         if(head==NULL)
@@ -26,11 +26,12 @@ int main()
         else
         {
             temp->next=newnode;
-            temp=temp->next;
+            temp=newnode;
             temp->next=NULL;
         }
+    
 
-        printf("Want to create more nodes Press 1\n");
+        printf("\nWant to create more nodes Press 1\n");
         scanf("%d",&ch);
 
     }
@@ -43,7 +44,7 @@ int main()
         temp=temp->next;
         i++;
     }
-    
+    getchar();
     return 0;
 }
 
