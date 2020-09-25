@@ -66,7 +66,7 @@ void insert()
 
 void delete()
 {int data;
-    if(front==-1)
+    if(front==-1 || front > rear)
     {
         printf("Underflow");
     }
