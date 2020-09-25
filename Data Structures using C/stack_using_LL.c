@@ -59,20 +59,16 @@ void push()
         top->next=newnode;
         top=top->next;
         top->next=NULL;
-    }
-    
+    }   
 }
-
 void pop()
 {   temp=stack;
 if (stack==NULL)
 {
     printf("Stack is Empety");
 }
-
 else
 {
-
     while(temp->next!=NULL)
     {   
         prevtemp=temp;
