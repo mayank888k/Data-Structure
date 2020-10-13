@@ -77,7 +77,7 @@ int main()
         printf("1 Insert In Queue\n");
         printf("2 Delete From Queue\n");
         printf("3 Display Queue\n");
-        printf("4  Exit\n");
+        printf("4 Exit\n");
         printf("Enter Your Choice\n");
         scanf("%d",&ch);
          switch (ch)
