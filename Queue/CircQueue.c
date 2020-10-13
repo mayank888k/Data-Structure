@@ -35,14 +35,14 @@ void dequeue()
     {
         printf("\nUnderflow");
     }
-    else
-    {
-        front=(front+1)%max;
-    }
-    if (front==rear)
+    else if (front==rear)
     {
         front=-1;
         rear=-1;
+    }
+    else
+    {
+        front=(front+1)%max;
     }
     
     
