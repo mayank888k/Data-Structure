@@ -33,7 +33,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     insertionSort(arr,n);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Insertion Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
