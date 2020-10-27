@@ -44,7 +44,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     selectionSort(arr,n);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Selection Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
