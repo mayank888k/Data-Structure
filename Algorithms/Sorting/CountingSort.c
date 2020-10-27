@@ -56,7 +56,7 @@ int main()
     }
     
     countSort(arr,n,max);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Counting Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
