@@ -52,7 +52,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     quickSort(arr,0,n-1);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Quick Sorting\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
