@@ -42,7 +42,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     bubblesort(arr,n);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Bubble Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
