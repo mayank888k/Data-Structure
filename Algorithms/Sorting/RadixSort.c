@@ -64,7 +64,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     radixSort(arr,n);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Radix Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
