@@ -84,7 +84,7 @@ int main()
         printf("%d\t",arr[i]);
     }
     mergeSort(arr,0,n-1);
-    printf("\nArray After Sorting\n");
+    printf("\nArray After Merge Sort\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t",arr[i]);
