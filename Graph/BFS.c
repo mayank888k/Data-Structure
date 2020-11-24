@@ -10,11 +10,11 @@ void bfs(int s)
         {
             q[++r]=i;   
         }
-        if (f<=r)
-        {   
-            visited[q[f]]=1;
-            bfs(++f);
-        }
+    }
+    if (f<=r)
+    {   
+        visited[q[f]]=1;
+        bfs(++f);
     }
 }
 
@@ -29,7 +29,7 @@ int main()
         visited[i]=0;
     }
     
-    printf("Enter the Adjacency Matrix : ");
+    printf("Enter the Adjacency Matrix : \n");
     for (int i = 0; i < v; i++)
     {
         for (int j = 0; j < v; j++)
@@ -48,12 +48,12 @@ int main()
     }
     printf("\nEnter the Source Node : ");
     scanf("%d",&s);
-    bfs(s-1);
+    bfs(s);
     for (int i = 0; i < v; i++)
     {
         if (visited[i])
         {
-            printf("Node %d is visited\n",i+1);
+            printf("Node %d is visited\n",i);
         }
         else
         {
