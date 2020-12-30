@@ -94,4 +94,5 @@ int main()
     printf("\n\nPostorder Trversal Is ");
     postorderTraversal(root);
     printf("\n\n");
+    return 0;
 }
